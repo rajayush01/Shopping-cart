@@ -16,7 +16,7 @@ Screenshots of Application on Web
 ![Screenshot 2024-05-24 211625](https://github.com/rajayush01/Shopping-cart/assets/119657235/e4e4ffbf-5905-475e-b2de-27c21cd87aff)
 ![Screenshot 2024-05-24 205758](https://github.com/rajayush01/Shopping-cart/assets/119657235/c4d4b91f-ea46-43c9-a7cd-5b601a57209a)
 
-Screenshots of Application on Web
+Screenshots of Application on Mobile Phone
 
 ![WhatsApp Image 2024-05-24 at 20 57 30_d96dda1c](https://github.com/rajayush01/Shopping-cart/assets/119657235/686518f4-8bc4-4527-b6f0-899adfc5008b)
 ![WhatsApp Image 2024-05-24 at 20 57 33_631188e2](https://github.com/rajayush01/Shopping-cart/assets/119657235/5050d170-1a24-4ff4-a923-dc00676435a3)

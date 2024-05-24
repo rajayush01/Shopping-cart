@@ -23,9 +23,9 @@ const Cart = () => {
   }, [cart]);
 
   return (
-    <Box minHeight="100vh" minWidth="90vw" p={isMobile ? 4 : 8} overflowX={"hidden"} >
+    <Box minHeight="100vh" minWidth="90vw" p={isMobile ? 4 : 8} overflowX="hidden">
       {cart.length > 0 ? (
-        <Flex flexDirection={isMobile ? "column" : "row"} alignItems="flex-start">
+        <Flex flexDirection={isMobile ? "column" : "row"} alignItems={isMobile ? "center" : "flex-start"}>
           <Box flex="1">
             <VStack spacing={4} divider={<StackDivider borderColor="gray.200" />} align="stretch">
               {cart.map((item, index) => (
@@ -33,17 +33,17 @@ const Cart = () => {
               ))}
             </VStack>
           </Box>
-          <Box ml={isMobile ? 0 : 8} mt={isMobile ? 8 : 0} bg="white" p={6} borderRadius="md" boxShadow="lg">
-            <Heading size="lg" mb={4} color="blue.800">
+          <Box mt={isMobile ? 8 : 0} bg="white" p={6} borderRadius="md" boxShadow="lg">
+            <Heading size="lg" mb={4} color="blue.800" textAlign={isMobile ? "center" : "left"}>
               Your Cart
             </Heading>
-            <Heading size="md" mb={2} color="blue.600">
+            <Heading size="md" mb={2} color="blue.600" textAlign={isMobile ? "center" : "left"}>
               Summary
             </Heading>
-            <Text mb={4} color="blue.800" fontSize="lg">
+            <Text mb={4} color="blue.800" fontSize="lg" textAlign={isMobile ? "center" : "left"}>
               <span>Total Items: {cart.length}</span>
             </Text>
-            <Text fontSize="xl" fontWeight="bold" mb={4} color="blue.800">
+            <Text fontSize="xl" fontWeight="bold" mb={4} color="blue.800" textAlign={isMobile ? "center" : "left"}>
               Total Amount: ${totalAmount}
             </Text>
             <Button colorScheme="blue" size="lg">
@@ -66,3 +66,4 @@ const Cart = () => {
 };
 
 export default Cart;
+

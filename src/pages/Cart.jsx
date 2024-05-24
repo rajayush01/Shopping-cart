@@ -34,10 +34,10 @@ const Cart = () => {
             </VStack>
           </Box>
           <Box ml={isMobile ? 0 : 8} mt={isMobile ? 8 : 0}>
-            <Heading size="md" mb={4} color="white">
+            <Heading size="lg" mb={4} color="white">
               Your Cart
             </Heading>
-            <Heading size="sm" mb={2} color="white">
+            <Heading size="md" mb={2} color="white">
               Summary
             </Heading>
             <Text mb={4} color="white">

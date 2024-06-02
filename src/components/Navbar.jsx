@@ -4,8 +4,11 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { FaBagShopping } from "react-icons/fa6";
 
-const Navbar = () => {
+const Navbar = ({setSearchTerm}) => {
   const { cart } = useSelector((state) => state);
+  const handleSearch = (e) => {
+    setSearchTerm(e.target.value);
+  };
 
   return (
     <Box bg={"gray.800"}>
@@ -43,6 +46,7 @@ const Navbar = () => {
               bg="white"
               color="gray.800"
               borderRadius="full"
+              onChange={handleSearch}
             />
             <InputRightElement>
               <IconButton
